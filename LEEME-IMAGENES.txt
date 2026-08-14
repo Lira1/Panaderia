@@ -1,0 +1,32 @@
+Esta carpeta necesita las siguientes imágenes reales para que el sitio
+se vea completo. Los nombres de archivo deben coincidir EXACTAMENTE
+(mismo nombre, misma extensión) o si preferís otro nombre, actualizá
+también el atributo src= en index.html.
+
+Tamaños recomendados (para que cargue rápido y se vea nítido):
+
+1. hero.jpg           -> 1600x1200px aprox. Foto grande de productos o
+                          del local. Es la imagen de fondo del hero.
+2. about.jpg           -> 900x1100px aprox. Foto del obrador, el
+                          panadero trabajando, o el local por dentro.
+3. producto-pan-campo.jpg      -> 800x600px. Foto del pan de campo.
+4. producto-pan-integral.jpg   -> 800x600px. Foto del pan integral.
+5. producto-baguette.jpg       -> 800x600px. Foto de la baguette.
+6. producto-medialunas.jpg     -> 800x600px. Foto de las medialunas.
+7. producto-facturas.jpg       -> 800x600px. Foto de facturas surtidas.
+8. producto-budin.jpg          -> 800x600px. Foto del budín.
+
+RECOMENDACIONES:
+- Formato JPG o WEBP (más liviano que PNG para fotos).
+- Comprimí las imágenes antes de subirlas (ej. con squoosh.app,
+  gratis y sin instalar nada) para que el sitio cargue rápido,
+  sobre todo en celular.
+- Evitá fotos verticales muy alargadas para hero.jpg y about.jpg;
+  funcionan mejor las horizontales o cuadradas.
+- El favicon.svg ya viene armado (un ícono simple de pan). Si querés
+  reemplazarlo por tu logo real, subí un archivo favicon.svg o
+  favicon.png y actualizá el <link rel="icon"> en index.html.
+
+Mientras no subas las imágenes reales, el sitio funciona igual mostrando
+el "alt text" (texto alternativo) en el lugar de la imagen, así que
+no se rompe nada — solo se ve incompleto visualmente.

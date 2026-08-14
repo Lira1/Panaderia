@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ======================================================
+       SEO BÁSICO — Reemplazá estos valores por los reales
+       ====================================================== -->
+  <title>Panadería PLACEHOLDER | Pan artesanal en TU CIUDAD</title>
+  <meta name="description" content="Panadería PLACEHOLDER: pan y facturas artesanales, horneados todos los días. Visitanos o hacé tu pedido por WhatsApp.">
+  <meta name="theme-color" content="#F7F0E4">
+
+  <!-- Open Graph (para que se vea bien al compartir el link) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Panadería PLACEHOLDER | Pan artesanal en TU CIUDAD">
+  <meta property="og:description" content="Pan y facturas artesanales, horneados todos los días. Visitanos o pedí por WhatsApp.">
+  <meta property="og:image" content="images/hero.jpg">
+  <meta property="og:locale" content="es_LA">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Tipografías (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ======================= HEADER / NAV ======================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">Panadería <span>PLACEHOLDER</span></a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======================= HERO ======================= -->
+    <section id="inicio" class="hero">
+      <div class="hero-media">
+        <img src="images/hero.jpg" alt="Mesada con pan recién horneado en Panadería PLACEHOLDER" loading="eager">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <p class="eyebrow">Horneado artesanal, todos los días</p>
+        <h1>Panadería<br><span>PLACEHOLDER</span></h1>
+        <p class="hero-tagline">Pan de verdad, hecho con tiempo y buenas manos.</p>
+        <div class="hero-actions">
+          <a href="#productos" class="btn btn-primary">Ver nuestros productos</a>
+          <a href="https://wa.me/50000000000?text=Hola!%20Quiero%20hacer%20una%20consulta"
+             class="btn btn-whatsapp" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-whatsapp"/></svg>
+            Contactar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= SOBRE NOSOTROS ======================= -->
+    <section id="nosotros" class="section about">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <p class="eyebrow">Nuestra historia</p>
+          <h2>Sobre nosotros</h2>
+          <p>
+            [PLACEHOLDER] Somos una panadería de barrio que empezó como un sueño familiar
+            y hoy amasa cada mañana antes del amanecer para que encuentres el pan recién
+            salido del horno. Usamos ingredientes simples, tiempos de fermentación largos
+            y nada de atajos.
+          </p>
+          <p>
+            [PLACEHOLDER] Cada producto que sale de nuestro horno lleva el mismo cuidado
+            que el primer día. Nos gusta pensar que no vendemos pan: compartimos un
+            oficio que aprendimos con paciencia.
+          </p>
+        </div>
+        <div class="about-media reveal">
+          <img src="images/about.jpg" alt="Panadero amasando masa a mano en el obrador de Panadería PLACEHOLDER" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= PRODUCTOS ======================= -->
+    <section id="productos" class="section productos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Lo que horneamos</p>
+          <h2>Nuestros productos</h2>
+          <p class="section-sub">Precios de referencia — pueden variar. Consultá disponibilidad por WhatsApp.</p>
+        </div>
+
+        <!-- ============================================================
+             CÓMO EDITAR PRODUCTOS Y PRECIOS
+             Cada tarjeta es un bloque <article class="product-card">.
+             Para agregar, editar o borrar un producto, copiá/editá un
+             bloque completo. El precio va en <span class="price">.
+             ============================================================ -->
+
+        <h3 class="category-title reveal">Panes</h3>
+        <div class="product-grid">
+
+          <article class="product-card reveal">
+            <img src="images/producto-pan-campo.jpg" alt="Pan de campo artesanal" loading="lazy">
+            <div class="product-info">
+              <h4>Pan de campo</h4>
+              <p>Masa madre, corteza crocante y miga bien alveolada.</p>
+              <span class="price">$PLACEHOLDER</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <img src="images/producto-pan-integral.jpg" alt="Pan integral artesanal" loading="lazy">
+            <div class="product-info">
+              <h4>Pan integral</h4>
+              <p>100% harina integral, ideal para el día a día.</p>
+              <span class="price">$PLACEHOLDER</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <img src="images/producto-baguette.jpg" alt="Baguette francesa artesanal" loading="lazy">
+            <div class="product-info">
+              <h4>Baguette</h4>
+              <p>Clásica francesa, corteza fina y crocante.</p>
+              <span class="price">$PLACEHOLDER</span>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="category-title reveal">Facturas y dulces</h3>
+        <div class="product-grid">
+
+          <article class="product-card reveal">
+            <img src="images/producto-medialunas.jpg" alt="Medialunas de manteca artesanales" loading="lazy">
+            <div class="product-info">
+              <h4>Medialunas de manteca</h4>
+              <p>Hojaldradas y apenas dulces, horneadas al momento.</p>
+              <span class="price">$PLACEHOLDER</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <img src="images/producto-facturas.jpg" alt="Selección de facturas artesanales" loading="lazy">
+            <div class="product-info">
+              <h4>Facturas surtidas</h4>
+              <p>Vigilantes, cañoncitos y sacramentos, docena mixta.</p>
+              <span class="price">$PLACEHOLDER</span>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <img src="images/producto-budin.jpg" alt="Budín de limón artesanal" loading="lazy">
+            <div class="product-info">
+              <h4>Budín de limón</h4>
+              <p>Húmedo, con glaseado casero. Se vende por porción o entero.</p>
+              <span class="price">$PLACEHOLDER</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= HORARIOS Y UBICACIÓN ======================= -->
+    <section id="ubicacion" class="section ubicacion">
+      <div class="container ubicacion-grid">
+        <div class="info-card reveal">
+          <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-pin"/></svg>
+          <h3>Dirección</h3>
+          <p>Calle PLACEHOLDER 123<br>Barrio PLACEHOLDER, Ciudad PLACEHOLDER</p>
+          <a href="https://maps.google.com/?q=Calle+PLACEHOLDER+123" target="_blank" rel="noopener" class="btn btn-outline btn-small">
+            Ver en Google Maps
+          </a>
+        </div>
+
+        <div class="info-card reveal">
+          <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-clock"/></svg>
+          <h3>Horarios</h3>
+          <ul class="horarios-list">
+            <li><span>Lunes a viernes</span><span>7:00 – 20:00</span></li>
+            <li><span>Sábados</span><span>7:00 – 14:00</span></li>
+            <li><span>Domingos</span><span>Cerrado</span></li>
+          </ul>
+        </div>
+
+        <div class="info-card reveal">
+          <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-phone"/></svg>
+          <h3>Teléfono / WhatsApp</h3>
+          <p>+PLACEHOLDER (000) 000-0000</p>
+          <a href="https://wa.me/50000000000" target="_blank" rel="noopener" class="btn btn-outline btn-small">
+            Escribir por WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= CONTACTO ======================= -->
+    <section id="contacto" class="section contacto">
+      <div class="container contacto-inner reveal">
+        <p class="eyebrow">¿Querés hacer un pedido?</p>
+        <h2>Escribinos, con gusto te ayudamos</h2>
+        <p class="section-sub">Los pedidos se coordinan directamente por WhatsApp.</p>
+        <a href="https://wa.me/50000000000?text=Hola!%20Quiero%20hacer%20un%20pedido"
+           class="btn btn-whatsapp btn-large" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-whatsapp"/></svg>
+          Hacer pedido por WhatsApp
+        </a>
+
+        <div class="social-links">
+          <a href="https://instagram.com/PLACEHOLDER" target="_blank" rel="noopener" aria-label="Instagram de Panadería PLACEHOLDER">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-instagram"/></svg>
+          </a>
+          <a href="https://facebook.com/PLACEHOLDER" target="_blank" rel="noopener" aria-label="Facebook de Panadería PLACEHOLDER">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-facebook"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">Panadería PLACEHOLDER</p>
+      <p>Calle PLACEHOLDER 123, Ciudad PLACEHOLDER · +PLACEHOLDER (000) 000-0000</p>
+      <p class="footer-copy">&copy; <span id="year"></span> Panadería PLACEHOLDER. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Sprite de íconos SVG (no requiere librerías externas) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.67.15-.198.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        <path fill="currentColor" d="M12.004 2.003c-5.523 0-10 4.477-10 10 0 1.766.462 3.492 1.34 5.01L2 22l5.116-1.334A9.96 9.96 0 0 0 12.004 22c5.523 0 10-4.477 10-10s-4.477-9.997-10-9.997zm0 18.17a8.15 8.15 0 0 1-4.157-1.14l-.298-.177-3.037.792.81-2.96-.194-.304a8.163 8.163 0 0 1-1.264-4.384c0-4.507 3.667-8.173 8.174-8.173 4.506 0 8.173 3.666 8.173 8.173 0 4.507-3.667 8.173-8.173 8.173z"/>
+      </symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.5" d="M12 21s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12z"/>
+        <circle cx="12" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      </symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M12 7v5l3.5 2"/>
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M4.5 4h3.2l1.3 4.4-2 1.6a12 12 0 0 0 5.9 5.9l1.6-2 4.4 1.3v3.2c0 1-.9 1.8-1.9 1.7A16.5 16.5 0 0 1 4.8 6c-.1-1 .7-2 1.7-2z"/>
+      </symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24">
+        <rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="17.2" cy="6.8" r="1" fill="currentColor"/>
+      </symbol>
+      <symbol id="icon-facebook" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.5" d="M14 21v-7h2.4l.4-3H14V9.2c0-.9.3-1.5 1.6-1.5H17V5.1C16.7 5 15.8 5 14.8 5c-2.1 0-3.5 1.3-3.5 3.6V11H9v3h2.3v7h2.7z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
