@@ -1,5 +1,5 @@
 /* ==========================================================================
-   PANADERÍA PLACEHOLDER — script.js
+   PANADERÍA Bakehouse — script.js
    JavaScript vanilla, sin dependencias.
    ========================================================================== */
 

@@ -1,4 +1,4 @@
-# Sitio web — Panadería PLACEHOLDER
+# Sitio web — Panadería Bakehouse
 
 Sitio de una sola página (landing page) hecho en HTML, CSS y JavaScript
 vanilla puro. Sin frameworks, sin backend, sin carrito de compras.
@@ -13,16 +13,16 @@ panaderia/
 ├── script.js         → animaciones al hacer scroll + año automático
 ├── images/
 │   ├── favicon.svg
-│   ├── hero.jpg               (PLACEHOLDER — falta subir)
-│   ├── about.jpg               (PLACEHOLDER — falta subir)
-│   ├── producto-*.jpg (x6)     (PLACEHOLDER — falta subir)
+│   ├── hero.jpg               (Bakehouse — falta subir)
+│   ├── about.jpg               (Bakehouse — falta subir)
+│   ├── producto-*.jpg (x6)     (Bakehouse — falta subir)
 │   └── LEEME-IMAGENES.txt      (detalle de qué imagen va en cada lugar)
 └── README.md         → este archivo
 ```
 
 ## 1. Datos que tenés que reemplazar
 
-Buscá la palabra **PLACEHOLDER** en `index.html` (Ctrl+F / Cmd+F) y reemplazá:
+Buscá la palabra **Bakehouse** en `index.html` (Ctrl+F / Cmd+F) y reemplazá:
 
 | Dato | Dónde está |
 |---|---|
@@ -52,14 +52,14 @@ actualizá el número en los tres.
 
 ### Cómo actualizar precios
 Cada producto es una tarjeta dentro de `<div class="product-grid">` en
-`index.html`. El precio está en `<span class="price">$PLACEHOLDER</span>`.
+`index.html`. El precio está en `<span class="price">$Bakehouse</span>`.
 Para agregar un producto nuevo, copiá un bloque `<article class="product-card">`
 completo, pegalo y editá texto, precio e imagen.
 
 ### Google Maps
 En la sección "Ubicación" hay un botón que apunta a:
 ```
-https://maps.google.com/?q=Calle+PLACEHOLDER+123
+https://maps.google.com/?q=Calle+Bakehouse+123
 ```
 Reemplazá el texto después de `?q=` por tu dirección real
 (los espacios se escriben con `+`), o mejor: buscá tu local en
@@ -103,7 +103,7 @@ git push -u origin main
 1. En tu proveedor de dominio, agregá un registro **CNAME** apuntando a
    `TU-USUARIO.github.io`.
 2. En GitHub, andá a **Settings → Pages → Custom domain** y escribí tu dominio
-   (ej. `www.panaderiaplaceholder.com`).
+   (ej. `www.panaderiaBakehouse.com`).
 3. Activá **Enforce HTTPS** una vez que el DNS se haya propagado
    (puede tardar unas horas).
 
